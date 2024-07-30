@@ -1,0 +1,108 @@
+#body{
+    position: relative;
+}
+.el-aside{
+    background-color: white;
+    text-align: center;
+    height: 600px;
+}
+/*轮播图样式*/
+.el-carousel{
+    margin-top: 50px;
+}
+.el-carousel img{
+    width: 200px;
+    height: 200px;
+}
+.el-carousel__item:nth-child(2n) {
+    background-color: rgba(183, 238, 189, 0.71);
+}
+.el-carousel__item:nth-child(2n+1) {
+    background-color: rgba(207, 239, 210, 0.57);
+}
+
+/*下部分模型展示样式*/
+#title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+.wrapper{
+    position: absolute;
+    width: 800px;
+    height: 410px;
+    left: 200px;
+    border: 3px solid black;
+}
+.wrapper ul{
+    float: left;
+    list-style: none;
+    font-size: 20px;
+}
+.wrapper ul a:hover{
+    color: pink;
+}
+#left{
+    position: absolute;
+    width: 200px;
+}
+#left li{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+#center{
+    position: absolute;
+    left: 200px;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+#center img{
+    margin-top: 5px;
+    width: 400px;
+    height: 400px;
+}
+#right{
+    position: absolute;
+    width: 197px;
+    right: 0;
+}
+#right li{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+.home-container {
+    height: 100%;
+}
+div {
+    align-items: center;
+}
+span {
+    margin-left: 15px;
+}
+
+/*菜单右边框对不齐*/
+.el-menu {
+    border-right: none;
+}
+
+.el-main {
+    background-color: #eaedf1;
+}
+
+.iconfont {
+    margin-right: 10px;
+}
+
+.toggle-button {
+    background-color: ghostwhite;
+    font-size: 10px;
+    line-height: 24px;
+    color: darkgray;
+    text-align: center;
+    letter-spacing: 0.2em;/* 字体间距 */
+    cursor: pointer;/* 鼠标放上去变成小手 */
+}

@@ -1,0 +1,98 @@
+#searchInput1{
+    position: absolute;
+    width: 350px;
+    padding: 0 25px;
+    height: 30px;
+    border: black solid 1px;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.1);
+    top: 10px;
+    left: 400px;
+    outline: none;
+}
+.el-icon-search1{
+    position: absolute;
+    top: 10px;
+    display: none;
+}
+#menu{
+    width: 1000px;
+    height: 200px;
+    background-color: darkgray;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+#menu_left,#menu_right{
+    float: left;
+}
+#menu_left ul li{
+    width: 150px;
+    height: 50px;
+    background-color: darkgray;
+    margin-top: 10px;
+    text-align: center;
+    list-style: none;
+    line-height: 50px;
+}
+#menu_right ul li{
+    width: 750px;
+    height: 50px;
+    background-color: darkgray;
+    margin-top: 10px;
+    list-style: none;
+    line-height: 50px;
+}
+#menu ul a:hover{
+    color: pink;
+}
+#option{
+    position: absolute;
+}
+#option li{
+    width: 50px !important;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 0 !important;
+}
+#option a{
+    float: left;
+}
+/*搜索结果展示样式*/
+#answer{
+    position: absolute;
+    height: 545px;
+    left: 100px;
+
+}
+#answer ul{
+    list-style: none;
+}
+#answer ul li{
+    float: left;
+}
+.picture3{
+    width: 150px;
+    height: 200px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#answer img{
+    width: 130px;
+    height:130px;
+}
+.picture3{
+    width: 245px;
+    height: 300px;
+    margin: 2px;
+    position: relative;
+    background-color: #fff;
+    float: left;
+    -webkit-transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+}
+.picture3:hover {
+    box-shadow: 0 16px 32px 0 rgba(48, 55, 66, 0.15);
+    transform: translate(0,-5px);
+    transition-delay: 0s !important;
+}

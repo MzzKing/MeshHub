@@ -1,0 +1,104 @@
+/*全局默认样式*/
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+#app{
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.5);
+}
+#app_bg{
+    /*background-image: url("../assets/img/bg.gif");*/
+    position: relative;
+    background-color: #e1e4ea;
+    /*background: linear-gradient(to bottom right,#c4f0c8,#e2efe4)*/
+    /*background-repeat: no-repeat;*/
+}
+/*a标签基础样式*/
+a{text-decoration: none;}
+/* 未被访问的链接*/
+a:link {color: black;
+}
+/* 已被访问过的链接*/
+a:visited {color: black}
+/* 鼠标悬浮在上的链接*/
+a:hover {
+    color: darkgray;
+}
+/*点击之后样式*/
+nav a.router-link-exact-active {
+    color: darkolivegreen;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*导航栏样式*/
+nav {
+    box-sizing: border-box;
+    width:100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+    padding-left: 10px;
+    position: relative;
+}
+/*设置header的默认样式*/
+.el-header{
+    padding: 0;
+    height: 50px !important;
+}
+
+/*设置导航之间的距离*/
+nav a {
+    margin: 0 20px;
+}
+.logo,.home,.mall{
+    float: left;
+    top: 10px;
+}
+#login{
+    position: absolute;
+    right: 125px;
+}
+#register,#user{
+    position: absolute;
+    right: 80px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+/*退出按钮*/
+.el-button{
+    height: 40px;
+    right: 15px;
+    top: 5px;
+    position: absolute;
+}
+
+/*搜索框*/
+#searchInput{
+    position: absolute;
+    left: 350px;
+    top: 10px;
+    width: 300px;
+    padding: 0 25px;
+    height: 30px;
+    border: black solid 1px;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.1);
+    outline: none;
+}
+.el-icon-search{
+    position: absolute;
+    display: none;
+}

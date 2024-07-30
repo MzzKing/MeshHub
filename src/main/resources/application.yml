@@ -1,0 +1,27 @@
+
+upload:
+  folder: 'C:\apache-tomcat-9.0.65\webapps\meshHub\static\models'
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+      table-prefix:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #??????
+  mapper-locations: com/example/dao/*.java
+
+spring:
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mesh_hub_pro
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 400MB
+      max-request-size: 1GB
+server:
+  port: 8081
